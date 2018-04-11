@@ -1,0 +1,3 @@
+[submodule "tricore-binutils"]
+	path = tricore-binutils
+	url = https://github.com/bkoppelmann/tricore-binutils.git
