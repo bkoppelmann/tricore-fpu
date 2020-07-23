@@ -1,4 +1,3 @@
-/* Default linker script, for normal executables */
 OUTPUT_FORMAT("elf32-tricore")
 OUTPUT_ARCH(tricore)
 ENTRY(_start)
@@ -7,7 +6,7 @@ ENTRY(_start)
 
 MEMORY
 {
-  text_ram (rx!p):	org = 0xa0000000, len = 15K
+  text_ram (rx!p):	org = 0x80000000, len = 15K
   data_ram (w!xp):    org = 0xd0000000, len = 130K
 }
 /*
